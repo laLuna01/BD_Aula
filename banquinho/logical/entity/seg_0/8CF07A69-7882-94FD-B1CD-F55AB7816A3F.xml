@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8CF07A69-7882-94FD-B1CD-F55AB7816A3F" name="COMPRA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:24:01 UTC</createdTime>
+<ownerDesignName>banquinho</ownerDesignName>
+<engineerTo>
+<item key="886BD2B6-9FBC-BE7F-8AAC-89361B3C1006" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_COMPRA" id="3B615C19-ED96-EA6D-AD30-B565ACAB823D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:24:08 UTC</createdTime>
+<ownerDesignName>banquinho</ownerDesignName>
+<engineerTo>
+<item key="886BD2B6-9FBC-BE7F-8AAC-89361B3C1006" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA_E_HORA" id="8D527008-27D7-FA8F-C3CC-42430618E949">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:24:32 UTC</createdTime>
+<ownerDesignName>banquinho</ownerDesignName>
+<engineerTo>
+<item key="886BD2B6-9FBC-BE7F-8AAC-89361B3C1006" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TOTAL" id="F31601AA-F82E-6DD8-C812-4B1DC89CE1C0">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:25:05 UTC</createdTime>
+<ownerDesignName>banquinho</ownerDesignName>
+<engineerTo>
+<item key="886BD2B6-9FBC-BE7F-8AAC-89361B3C1006" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

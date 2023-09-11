@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E7B33762-EA81-9D7E-9FAF-A1B28EDCCA21" name="PRODUTO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:16:12 UTC</createdTime>
+<ownerDesignName>banquinho</ownerDesignName>
+<engineerTo>
+<item key="886BD2B6-9FBC-BE7F-8AAC-89361B3C1006" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PRODUTO" id="F23CB883-4986-3272-0C36-58992D4419AD">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:16:33 UTC</createdTime>
+<ownerDesignName>banquinho</ownerDesignName>
+<engineerTo>
+<item key="886BD2B6-9FBC-BE7F-8AAC-89361B3C1006" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME_PRODUTO" id="8F3BE158-4A5F-2E26-40BB-B83AFB1BBCD2">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:18:12 UTC</createdTime>
+<ownerDesignName>banquinho</ownerDesignName>
+<engineerTo>
+<item key="886BD2B6-9FBC-BE7F-8AAC-89361B3C1006" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MARCA" id="D5F75484-8366-7DCD-3CCA-172F48F6EE78">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:18:44 UTC</createdTime>
+<ownerDesignName>banquinho</ownerDesignName>
+<engineerTo>
+<item key="886BD2B6-9FBC-BE7F-8AAC-89361B3C1006" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRICAO" id="652F7A07-D2F6-1C95-A0E6-ACA2264BD77D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:18:57 UTC</createdTime>
+<ownerDesignName>banquinho</ownerDesignName>
+<engineerTo>
+<item key="886BD2B6-9FBC-BE7F-8AAC-89361B3C1006" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRECO" id="53D08165-BA82-11E5-A4E1-E1D415CBAFED">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:19:18 UTC</createdTime>
+<ownerDesignName>banquinho</ownerDesignName>
+<engineerTo>
+<item key="886BD2B6-9FBC-BE7F-8AAC-89361B3C1006" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CATEGORIA" id="F93F4BE8-BFCD-C1E2-80F1-002FD67A7B7E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:19:40 UTC</createdTime>
+<ownerDesignName>banquinho</ownerDesignName>
+<engineerTo>
+<item key="886BD2B6-9FBC-BE7F-8AAC-89361B3C1006" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
