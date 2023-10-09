@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="banquinho" id="59D35910-7631-8936-8BB0-34E1BAB0CA6A" version="3.5">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-11 11:12:16 UTC</createdTime>
-<ownerDesignName>banquinho</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>59D35910-7631-8936-8BB0-34E1BAB0CA6A</designId>
-</OSDM_Design>
