@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="CFB51798-F813-61F0-38CD-2455F1787BAE" mainViewID="EC06C817-FC81-49E2-04EC-F5C884271616">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-11 11:12:16 UTC</createdTime>
-<ownerDesignName>banquinho</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>
